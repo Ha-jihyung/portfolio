@@ -133,7 +133,7 @@ li {
   justify-content: center;
   align-items: center;
   text-align: center;
-  background-color: #faebc7;
+  background-color: #fff;
   border-bottom: 1px solid #d4b45f;
 }
 .page-active ul {
@@ -188,6 +188,10 @@ section {
   height: 100vh;
   padding: 15px;
   background-color: #eee;
+}
+
+#about {
+  background-color: #faebc7;
 }
 
 .box {
@@ -248,20 +252,38 @@ section {
 .about {
 }
 .fill {
+  padding: 38px;
 }
 .about-inner {
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+  flex-direction: column;
+  padding: 50px 150px;
+  width: 1500px;
+  height: 840px;
+  background-color: #fff;
 }
 .info1 {
-  font-size: 16px;
+  display: flex;
+  gap: 100px;
+  padding: 59px 70px;
 }
 .info2 {
-  font-size: 24px;
+  display: flex;
+  gap: 200px;
+  padding: 59px 70px;
 }
 .info-card {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
 }
 .info-card span {
+  font-size: 40px;
 }
 .info-card p {
+  font-size: 30px;
 }
 .icon {
 }
