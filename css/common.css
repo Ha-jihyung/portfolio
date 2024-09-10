@@ -1,0 +1,267 @@
+@import url("https://fonts.googleapis.com/css2?family=Nanum+Myeongjo:wght@400;700;800&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  scroll-behavior: smooth;
+}
+ul,
+li {
+  list-style: none;
+}
+.mainpage,
+.profile {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  background-color: #eee;
+  z-index: 1;
+}
+.mainpage {
+  background-color: #fff;
+  display: flex;
+  justify-content: center; /* 수평 중앙 정렬 */
+  align-items: center; /* 수직 중앙 정렬 */
+}
+.mainpage span {
+  position: absolute;
+  bottom: 0;
+  font-size: 200px;
+  align-self: center;
+  letter-spacing: 70px;
+}
+.profile {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 186.5px;
+  gap: 238px;
+  background-color: #fff;
+}
+.intro {
+  display: flex;
+  flex-direction: column;
+  gap: 200px;
+}
+
+.text {
+  display: flex;
+  flex-direction: column;
+}
+
+.text span {
+  font-size: 50px;
+  color: #222;
+}
+.text > p {
+  font-size: 30px;
+  color: #222;
+  opacity: 60%;
+}
+.contact {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.contact p {
+  font-size: 30px;
+  font-weight: bold;
+}
+.contact li {
+  font-size: 20px;
+}
+
+.imgbox {
+  width: 742px;
+  height: 773.5px;
+  border: 3px solid #bbbbbb;
+  border-bottom: 0px;
+  border-radius: 5%;
+}
+.imgbox-inner {
+  width: 100%;
+  height: 100%;
+  padding: 50px;
+  padding-bottom: 0px;
+}
+.imgbox-fill {
+  position: relative;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-radius: 5%;
+  background-color: #ffd874;
+  opacity: 75%;
+  gap: 20px;
+}
+.imgbox-fill img {
+  width: 425px;
+  height: 550px;
+  align-self: center;
+}
+.imgbox p {
+  font-size: 30px;
+  align-self: center;
+}
+
+.wrap {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 300px;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #fff;
+}
+.page-active {
+  position: relative;
+  width: 100%;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: #faebc7;
+  border-bottom: 1px solid #d4b45f;
+}
+.page-active ul {
+}
+.page-active li {
+  display: none;
+  font-size: 30px;
+  /* color: #000;
+  -webkit-text-stroke: 1px #d4b45f; */
+}
+.page-active li.active {
+  display: block;
+}
+.main {
+  position: relative;
+  width: calc(100% - 300px);
+  margin-left: 300px;
+}
+
+.menu {
+  width: 100%;
+}
+.navi {
+}
+.navi li {
+  width: 100%;
+  height: 74px;
+  font-size: 25px;
+  border-bottom: 1px solid #d4b45f;
+}
+.navi li a:hover {
+  background-color: #faebc7;
+  color: #fff;
+  -webkit-text-stroke: 1px #b19650;
+}
+
+.navi a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 74px;
+  text-decoration: none;
+  color: #ffd874;
+  -webkit-text-stroke: 1px #d4b45f; /* 글자 테두리 두께 및 색상 */
+  font-weight: bold;
+}
+.navi a:hover {
+}
+
+section {
+  width: 100%;
+  height: 100vh;
+  padding: 15px;
+  background-color: #eee;
+}
+
+.box {
+}
+.content-intro {
+  position: relative;
+  height: 600px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 50px 100px 65px 65px;
+}
+.intro-text {
+  display: flex;
+  flex-direction: row;
+}
+.number {
+  font-size: 200px;
+  color: #222;
+  opacity: 20%;
+}
+.title {
+  position: absolute;
+  top: 200px;
+  left: 220px;
+  font-size: 48px;
+  color: #575757;
+  font-weight: 700;
+}
+.thumnail {
+}
+.thumnail-inner {
+}
+.thumnail-inner iframe {
+}
+.explain {
+  position: absolute;
+  top: 65%;
+  left: 10%;
+  font-size: 24px;
+  color: #575757;
+}
+
+.small-thumbnail {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  height: 360px;
+}
+
+.img-wrap img {
+  width: 387px;
+  height: 249px;
+  margin-right: 60px;
+  margin-left: 60px;
+}
+
+.about {
+}
+.fill {
+}
+.about-inner {
+}
+.info1 {
+}
+.info2 {
+}
+.info-card {
+}
+.info-card span {
+}
+.info-card p {
+}
+.icon {
+}
+.icon img {
+}

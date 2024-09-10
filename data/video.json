@@ -1,0 +1,22 @@
+{
+  "videos": [
+    {
+      "thumbnail": "https://picsum.photos/200/100?random=1",
+      "videoId": "jZRxiPu7VgE?si=-4t54SxbB8It89m3",
+      "title": "첫 번째 영상 타이틀",
+      "description": "첫 번째 영상에 대한 설명 글입니다."
+    },
+    {
+      "thumbnail": "https://picsum.photos/200/100?random=2",
+      "videoId": "VbAkwkGww9g?si=kb3WTegtGEtgkWcp",
+      "title": "두 번째 영상 타이틀",
+      "description": "두 번째 영상에 대한 설명 글입니다."
+    },
+    {
+      "thumbnail": "https://picsum.photos/200/100?random=3",
+      "videoId": "661I5PjE1_E?si=nn96YSdn40u-z41U",
+      "title": "세 번째 영상 타이틀",
+      "description": "세 번째 영상에 대한 설명 글입니다."
+    }
+  ]
+}
